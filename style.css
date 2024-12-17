@@ -109,30 +109,22 @@ input:checked + label .description {
     transform: translateY(0);
 }
 
-/* Background Images */
 .card[for="img1"] {
-    background-image: url('images/SPRING.jpg');
-    background-size: cover; /* To properly fit the image */
-    background-position: center;
+    background: url('images/SPRING.jpg') center / cover no-repeat;
 }
 
 .card[for="img2"] {
-    background-image: url('images/SUMMER.jpg');
-    background-size: cover; /* To properly fit the image */
-    background-position: center;
+    background: url('images/SUMMER.jpg') center / cover no-repeat;
 }
 
 .card[for="img3"] {
-    background-image: url('images/FALL.jpg');
-    background-size: cover; /* To properly fit the image */
-    background-position: center;
+    background: url('images/FALL.jpg') center / cover no-repeat;
 }
 
 .card[for="img4"] {
-    background-image: url('images/WINTER.jpg');
-    background-size: cover; /* To properly fit the image */
-    background-position: center;
+    background: url('images/WINTER.jpg') center / cover no-repeat;
 }
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
